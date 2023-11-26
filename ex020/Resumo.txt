@@ -1,0 +1,6 @@
+
+No ex020: <div> com aplicação do <hover>
+
+hover: Nesta aula aprendemos sobre as Pseudo Classes, e como aplicar. E também Podendo 
+ser utilizado em menus e em mensagens ocultas que aparecem com o passar do mouse sobre
+a frase matriz. 
