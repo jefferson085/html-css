@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm,mm,in,px,pt,pc
+
+            Medidas relativas
+            em,ex,rem,vw,vh,%
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+
+            /* weight(peso) width(largura) height(altura)*/
+            /*lighter normal bold bolder*/
+        }
+        h1{
+            
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family 
+            
+            font-family: 'work Sans, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque, quidem saepe enim placeat tenetur nobis ad obcaecati cum soluta, corrupti odio! Saepe accusantium praesentium facere, aut dolorem officiis Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis debitis nisi, saepe enim temporibus voluptatibus eaque, veritatis minima labore quisquam sint a aliquam perferendis iure assumenda maiores aspernatur, quia earum?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe officiis molestias maiores non a, laborum illum facere, temporibus deleniti delectus id ipsa? Numquam reiciendis fuga iure repellat ad, dicta accusamus.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, corporis labore? Minima accusamus numquam repellat a id similique rem nisi quo esse aut at fugiat, quod eos ea eligendi asperiores!</p>
+</body>
+</html>
